@@ -1,0 +1,103 @@
+body{
+    background: rgb(4,4,79);
+    background: linear-gradient(90deg, rgba(4,4,79,1) 6%, rgba(2,0,36,1) 100%, rgba(0,212,255,1) 100%);
+    overflow-x: hidden;
+}
+.icons i{
+    color: grey;
+}
+.leftsection{
+    margin-top: 40px;
+    display: flex;
+    gap: 20px;
+    width: 5%;
+    /* background-color: blueviolet; */
+    }
+    .icons{
+        margin-top: 40px;
+        margin-bottom: 30px;
+        display: flex;
+        font-size: larger;
+    }
+   
+.text{
+  font-size: larger;
+   color: gray;
+  margin-bottom: 38px;
+   
+}
+.texts{
+    display: none;
+    margin-top: 20px;
+}
+.leftsection:hover .texts{
+    display: block;
+    cursor: pointer;
+    z-index: 4;
+    
+}
+.icons i:hover{
+    color: white;
+    font-size: x-large;
+}
+.text p:hover{
+    color: white;
+    text-decoration: underline;
+    font-size: x-large;
+}
+.hotstar{
+    display: flex;
+    gap: 50px;
+    position: fixed;
+}
+.slide1{
+    display: flex;
+    gap: 10px;
+
+    z-index: 0;
+}
+.names video{
+    height: 120px;
+    margin-top: 40px;
+    border-radius: 10px;
+    
+}
+h3{
+    color: gainsboro;
+    font-size: 26px;
+}
+.slide2 img{
+    height: 180px;
+    width: 250px;
+    border-radius: 10px;
+}
+.slide2{
+    display: flex;
+    gap: 5px;
+    
+    border-radius: 10px;
+}
+.Channels {
+   display: flex;
+  align-items: center;
+  gap: 60rem;
+}
+.star img{
+    height: 180px;
+    width: 250px;
+    border-radius: 10px;
+}
+.slide3{
+    display: flex;
+    gap: 5px;
+    
+    border-radius: 10px;
+}
+img:hover{
+    height: 200px;
+    width: 280px;
+}
+video:hover{
+    height: 140px;
+    
+}
